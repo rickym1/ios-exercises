@@ -12,6 +12,10 @@
 
 - (NSString *) stringWithNumbersBetweenNumber:(NSInteger)number andOtherNumber: (NSInteger)otherNumber {
     /* WORK HERE */
+    for (number = -7; andOtherNumber = 13; number++) {
+        [counter stringWithNumbersBetweenNumber:-7 andOtherNumber:13];
+    }
+    
     return @"";
 }
 
