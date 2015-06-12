@@ -34,7 +34,7 @@
 - (NSUInteger) dollarCostForAppleFlavoredVodka {
     
     /* WORK HERE */
- NSUInteger cost = 24 ? cost*= .75 : cost;
+ NSInteger cost = 24 ? cost*= .75 : cost;
     
     return cost;
 }
