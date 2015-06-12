@@ -34,13 +34,11 @@
 - (NSUInteger) dollarCostForAppleFlavoredVodka {
     /* WORK HERE */
     
-    NSUInteger cost = 24;
     
-    if (self.getsDiscount) {
-        cost *= .75;
-    }
+  NSUInteger cost = (self.getsDiscount) ? 18 : 24;
     
-    return cost;
+    NSLog(@"%lu", cost);
+    return 0;
 }
 
 @end
