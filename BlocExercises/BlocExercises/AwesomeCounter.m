@@ -24,7 +24,7 @@
     }
     
     /* WORK HERE */
-    for (NSInteger counter = lowNumber ; lowNumber <= highNumber; counter++) {
+    for (NSInteger counter = lowNumber ; counter <= highNumber; counter++) {
         [returnString appendFormat:@"%ld",counter];
     }
     
