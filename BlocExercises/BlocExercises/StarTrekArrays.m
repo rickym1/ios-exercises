@@ -12,12 +12,18 @@
 
 - (NSArray *) arrayOfStarTrekCharactersFromString:(NSString *)characterString {
     /* WORK HERE */
-    return @[];
+    
+    NSArray *myTaskArray = [characterString componentsSeparatedByString:@";"];
+    
+    return myTaskArray;
 }
 
 - (NSString *) stringOfStarTrekCharactersFromArray:(NSArray *)characterArray {
     /* WORK HERE */
-    return @"";
+    
+    NSString *myString = [characterArray componentsJoinedByString:@";"];
+    
+    return myString;
 }
 
 - (NSArray *) alphabeticallySortedStarTrekCharactersFromArray:(NSArray *)characterArray {
