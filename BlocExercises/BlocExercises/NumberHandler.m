@@ -24,7 +24,7 @@
     
     NSInteger lowNumber;
     NSInteger highNumber;
-    NSArray *numberArray;
+    NSMutableArray *numberArray = [[NSMutableArray alloc] init];
     
     
     if (number < otherNumber) {
@@ -36,7 +36,7 @@
     }
 
     for (NSInteger count = lowNumber; lowNumber <= highNumber; count++) {
-        [numberArray ]
+        [numberArray addObject:[]
     }
     
     return numberArray;
