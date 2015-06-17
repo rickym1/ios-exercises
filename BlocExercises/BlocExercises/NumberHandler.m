@@ -36,7 +36,7 @@
     }
 
     for (NSInteger count = lowNumber; lowNumber <= highNumber; count++) {
-        <#statements#>
+        [numberArray ]
     }
     
     return numberArray;
