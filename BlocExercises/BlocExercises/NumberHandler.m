@@ -36,7 +36,7 @@
     }
 
     for (NSInteger count = lowNumber; lowNumber <= highNumber; count++) {
-        [numberArray addObject:[]
+        [numberArray addObject:[NSNumber numberWithInteger:count]];
     }
     
     return numberArray;
