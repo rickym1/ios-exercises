@@ -44,10 +44,12 @@
 
 - (NSInteger) lowestNumberInArray:(NSArray *)arrayOfNumbers {
     /* WORK HERE */
+    NSNumber *min = [arrayOfNumbers valueForKeyPath:@"min.intValue"];
+    NSInteger minNum = [min integerValue];
     
     
     
-    return 0;
+    return minNum;
 }
 
 @end
