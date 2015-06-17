@@ -12,16 +12,26 @@
 
 - (NSNumber *) numberThatIsTwiceAsBigAsNumber:(NSNumber *)number {
     /* WORK HERE */
-    return @0;
+    
+    
+    NSNumber *timesTwo = @([number intValue] * 2);
+    
+    return timesTwo;
 }
 
 - (NSArray *) arrayOfNumbersBetweenNumber:(NSInteger)number andOtherNumber: (NSInteger)otherNumber {
     /* WORK HERE */
+    
+    
+    
     return @[];
 }
 
 - (NSInteger) lowestNumberInArray:(NSArray *)arrayOfNumbers {
     /* WORK HERE */
+    
+    
+    
     return 0;
 }
 
