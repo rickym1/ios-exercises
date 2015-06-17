@@ -27,9 +27,9 @@
     
     
     if (number < otherNumber) {
-        lowNumber = number;
+        lowNumber = [number intValue];
     } else
-    
+
     NSArray *numberArray = @[
     
     return numberArray;
