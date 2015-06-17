@@ -22,9 +22,13 @@
 - (NSArray *) arrayOfNumbersBetweenNumber:(NSInteger)number andOtherNumber: (NSInteger)otherNumber {
     /* WORK HERE */
     
+    if (number < otherNumber) {
+        NSNumber *lowNumber = number;
+    } else
     
+    NSArray *numberArray = @[
     
-    return @[];
+    return numberArray;
 }
 
 - (NSInteger) lowestNumberInArray:(NSArray *)arrayOfNumbers {
