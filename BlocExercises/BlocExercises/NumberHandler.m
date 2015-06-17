@@ -24,15 +24,20 @@
     
     NSInteger lowNumber;
     NSInteger highNumber;
+    NSArray *numberArray;
     
     
     if (number < otherNumber) {
-        lowNumber = number
+        lowNumber = number;
+        highNumber = otherNumber;
     } else {
-        
+        lowNumber = otherNumber;
+        highNumber = number;
     }
 
-    NSArray *numberArray = @[
+    for (NSInteger count = lowNumber; lowNumber <= highNumber; count++) {
+        <#statements#>
+    }
     
     return numberArray;
 }
