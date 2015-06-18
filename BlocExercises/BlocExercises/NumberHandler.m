@@ -35,7 +35,7 @@
         highNumber = number;
     }
 
-    for (NSInteger count = lowNumber; lowNumber <= highNumber; count++) {
+    for (NSInteger count = lowNumber; count <= highNumber; count++) {
         [numberArray addObject:[NSNumber numberWithInteger:count]];
     }
     
@@ -44,7 +44,7 @@
 
 - (NSInteger) lowestNumberInArray:(NSArray *)arrayOfNumbers {
     /* WORK HERE */
-    NSNumber *min = [arrayOfNumbers valueForKeyPath:@"min.intValue"];
+    NSNumber *min = [arrayOfNumbers valueForKeyPath:@"@min.intValue"];
     NSInteger minNum = [min integerValue];
     
     
