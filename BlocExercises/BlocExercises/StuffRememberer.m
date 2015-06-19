@@ -12,6 +12,8 @@
 
 - (void) rememberThisArrayForLater:(NSMutableArray *)arrayToRemember {
     /* WORK HERE */
+    
+    
 }
 
 - (void) copyThisArrayForLater:(NSMutableArray *)arrayToCopy {
@@ -24,7 +26,10 @@
 
 - (NSMutableArray *) arrayYouShouldRemember {
     /* WORK HERE */
-    return [@[] mutableCopy];
+    
+    NSMutableArray *otherMut = [_arrayToRemember mutableCopy];
+    
+    return otherMut;
 }
 
 - (NSMutableArray *) arrayYouShouldCopy {
