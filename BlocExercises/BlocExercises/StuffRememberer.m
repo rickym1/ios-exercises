@@ -18,6 +18,7 @@
 
 - (void) copyThisArrayForLater:(NSMutableArray *)arrayToCopy {
     /* WORK HERE */
+    self.happyMut = arrayToCopy;
     
 }
 
@@ -35,7 +36,7 @@
 
 - (NSMutableArray *) arrayYouShouldCopy {
     /* WORK HERE */
-    return [@[] mutableCopy];
+    return _happyMut;
 }
 
 - (CGFloat) floatYouShouldRemember {
