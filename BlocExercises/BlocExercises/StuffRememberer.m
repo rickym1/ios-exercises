@@ -12,12 +12,13 @@
 
 - (void) rememberThisArrayForLater:(NSMutableArray *)arrayToRemember {
     /* WORK HERE */
-    
+    self.otherMut = arrayToRemember;
     
 }
 
 - (void) copyThisArrayForLater:(NSMutableArray *)arrayToCopy {
     /* WORK HERE */
+    
 }
 
 - (void) rememberThisFloatForLater:(CGFloat)floatToRemember {
@@ -27,9 +28,8 @@
 - (NSMutableArray *) arrayYouShouldRemember {
     /* WORK HERE */
     
-    NSMutableArray *otherMut = [_arrayToRemember mutableCopy];
     
-    return otherMut;
+    return _otherMut;
 }
 
 - (NSMutableArray *) arrayYouShouldCopy {
