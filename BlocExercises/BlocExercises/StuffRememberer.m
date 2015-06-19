@@ -23,6 +23,7 @@
 
 - (void) rememberThisFloatForLater:(CGFloat)floatToRemember {
     /* WORK HERE */
+    self.superFloat = floatToRemember;
 }
 
 - (NSMutableArray *) arrayYouShouldRemember {
@@ -39,7 +40,7 @@
 
 - (CGFloat) floatYouShouldRemember {
     /* WORK HERE */
-    return 0.0f;
+    return _superFloat;
 }
 
 @end
