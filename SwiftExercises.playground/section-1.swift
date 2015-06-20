@@ -28,7 +28,7 @@ numberArray += [5]
 var numberDictionary = [1 : "one", 2 : "two", 3 : "three", 4 : "four"]
 // Add 5 : "five" to this dictionary
 // WORK HERE
-//numberDictionary += [ 5 : "five"]
+numberDictionary[5] = "five"
 /*
 
 Loops
@@ -37,13 +37,21 @@ Loops
 
 // Use a closed range loop to print 1 - 10, inclusively
 // WORK HERE
-for var i = 1; i <= 10; i++ {
+for i in 1...10
+{
     println(i)
 }
 
+
+
 // Use a half-closed range loop to print 1 - 10, inclusively
 // WORK HERE
-//let printThis =
+
+for i in 1..<10
+
+{
+    println(i)
+}
 
 let worf = [
     "name": "Worf",
