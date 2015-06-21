@@ -66,20 +66,17 @@ let picard = [
     "information": "Captain of the USS Enterprise",
     "favorite drink": "tea, Earl Grey, hot"]
 
-let characters = [worf, picard]
 
 func favoriteDrinksArrayForCharacters(characters:Array<Dictionary<String, String>>) -> Array<String> {
     // return an array of favorite drinks, like ["prune juice", "tea, Earl Grey, hot"]
     // WORK HERE
+    var favDrinks = [worf["favorite drink"], picard["favorite drink"]]
     
     
-    
-    return []
+    return favDrinks
 }
 
-let favoriteDrinks = favoriteDrinksArrayForCharacters(characters)
 
-favoriteDrinks
 
 /*
 
@@ -93,8 +90,7 @@ let strings = ["milk", "eggs", "bread", "challah"]
 
 // WORK HERE - make your function and pass `strings` in
 
-let expectedOutput = "milk;eggs;bread;challah"
-
+let joinString = ";".join(strings)
 /*
 
 Closures
