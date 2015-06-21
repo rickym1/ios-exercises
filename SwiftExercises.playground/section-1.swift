@@ -73,7 +73,6 @@ func favoriteDrinksArrayForCharacters(characters:Array<Dictionary<String, String
     var favDrinks = [worf["favorite drink"], picard["favorite drink"]]
     
     
-    return favDrinks
 }
 
 
