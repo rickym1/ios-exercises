@@ -47,7 +47,7 @@ for i in 1...10
 // Use a half-closed range loop to print 1 - 10, inclusively
 // WORK HERE
 
-for i in 1..<10
+for i in 1..<11
 
 {
     println(i)
@@ -70,12 +70,19 @@ let picard = [
 func favoriteDrinksArrayForCharacters(characters:Array<Dictionary<String, String>>) -> Array<String> {
     // return an array of favorite drinks, like ["prune juice", "tea, Earl Grey, hot"]
     // WORK HERE
-    var favDrinks = [worf["favorite drink"], picard["favorite drink"]]
+    var trekArray = [String] ()
+    for character in characters{
+        if let favoriteDrink = character["favorite drink"] {
+            trekArray.append(favoriteDrink)
+        }
+    }
+    
+    return trekArray
     
     
 }
 
-
+let result = favoriteDrinksArrayForCharacters([worf,picard])
 
 /*
 
